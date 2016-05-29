@@ -13,7 +13,7 @@
 #define BLOCKS 0x1000
 #define BLKSIZE 0x10000
 
-#define CID1 "/sys/devices/msm_sdcc.1/mmc_host/mmc0/mmc0:0001/cid"
+#define CID1 "/sys/block/mmcblk0/device/cid"
 #define CID2 "/sys/devices/platform/msm_sdcc.1/mmc_host/mmc0/mmc0:0001/cid"
 #define CID3 "/sys/class/mmc_host/mmc0/mmc0:0001/cid"
 #define ABOOTNAME "/dev/block/platform/msm_sdcc.1/by-name/aboot"
